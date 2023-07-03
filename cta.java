@@ -189,11 +189,11 @@ class calculator extends JFrame implements ActionListener {
 			else if(res<80 && res>=70)
 				g="B";
 
-			else if(res<70 && res<=60)
+			else if(res<70 && res>=60)
 				g="C";
-			else if(res<60 && res<=50)
+			else if(res<60 && res>=50)
 				g="D";
-			else if(res<50 && res<=40)
+			else if(res<50 && res>=40)
 				g="E";
 			else
 				g="F";
